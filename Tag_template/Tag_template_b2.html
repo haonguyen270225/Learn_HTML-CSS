@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học thẻ template trên W3School !</title>
+    <style>
+      .myClass {
+        color: white;
+        background-color: rgb(39, 10, 38);
+        padding: 20px;
+        text-align: center;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Thẻ template ! Bài 2 !</h1>
+    <p>
+      Ví dụ : Sẽ hiển thị vào trang web một phần tử div mới cho mỗi mục trong
+      mảng !
+    </p>
+    <p>Nhấp vào nút bên dưới để hiển thị nội dụng ẩn.</p>
+    <button onclick="showContent()">Nhấn để hiển thị !</button>
+    <template>
+      <div class="myClass">Tôi thích hãng xe:</div>
+    </template>
+    <script>
+      let myArr = ["Audi", "BMW", "Ford", "Honda", "Jaguar", "Nissan"];
+      function showContent() {
+        let temp, item, i, a;
+        temp = document.getElementsByTagName("template")[0];
+        // Lấy phần tử div từ template.
+        item = temp.content.querySelector("div");
+        // Duyệt các phần tử trong mảng.
+        for (i = 0; i < myArr.length; i++) {
+          // Tạo node mới dựa trên tamplate.
+          a = document.importNode(item, true);
+          // Thêm dữ liệu từ mảng.
+          a.textContent += myArr[i];
+          // Thêm nút mới vào bất cứ vị trí nào bạn muốn.
+          document.body.appendChild(a);
+        }
+      }
+    </script>
+  </body>
+</html>

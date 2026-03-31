@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học thẻ template trên W3School !</title>
+  </head>
+  <body>
+    <h1>Thẻ template ! Bài 1 !</h1>
+    <p style="font-size: 20px; color: brown">
+      Thẻ template được sử dụng để lưu trữ một số nội dung phần tử html bị ẩn
+      khi trang tải. <br />
+      Nội dung bên trong template có thể được hiển thị bằng JavaScript. <br />
+      Bạn có thể sử dụng ther template nếu bạn muốn mã bạn muốn dùng lặp đi lặp
+      lại nhưng chỉ khi yêu cầu nó mớ được sử dụng.
+    </p>
+    <p>Ví dụ 1:</p>
+    <p>Nhấp vào nút bên dưới để hiển thị nội dung ẩn từ phầnm tử template.</p>
+    <button onclick="showContent()">Hiển thị nội dung ẩn !</button>
+    <template>
+      <h2>Flower</h2>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaQZJkejcOvoeY8077He_d4PTCoy7g66d_9BxPmW1PHoQ3BH3ZQvMhEob3gwLMsMrnhox8D1NvUXvymKaGb89ktcsUkDHfVcUW1xcXkSKH&s=10"
+        alt="Ảnh bông hoa !"
+        width="220"
+        height="210"
+      />
+    </template>
+
+    <script>
+      function showContent() {
+        let temp = document.getElementsByTagName("template")[0];
+        let clon = temp.content.cloneNode(true);
+        document.body.appendChild(clon);
+      }
+    </script>
+  </body>
+</html>
