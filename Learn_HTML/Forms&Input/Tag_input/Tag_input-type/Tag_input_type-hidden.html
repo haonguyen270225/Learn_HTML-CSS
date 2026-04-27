@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Các kiểu type của phần tử input !</title>
+  </head>
+  <body>
+    <p>
+      - Phần tử hidden được sử dụng để định nghĩa một trường nhập liệu ẩn. -
+      Trường ẩn cho phép các nhà phát triển web đưa vào dữ liệu mà người dùng
+      không thể nhìn thấy hoặc chỉnh sửa khi biểu mẫu được gửi đi. <br />
+      - Trường ẩn lưu trữ thông tin về bản ghi vào trong cơ sở dữ liệu cần được
+      cập nhật khi biểu mẫu được gữi đi. <br />
+      - <b>Lưu ý : </b> Mặc định giá trị không được hiển thị chi người dùng
+      trong nội dung trang , nhưng nó vẫn có thể nhìn thấy (và chỉnh sửa) bằng
+      công cụ dành cho nhà phát triển hoặc chức năng "Xem mã nguồn." của bất kỳ
+      trình duyệt nào. Không nên sử dụng các trường nhập liệu ẩn như một hình
+      thức bảo mật.
+    </p>
+
+    <p><b>Ví dụ : </b></p>
+    <form action="" method="get">
+      <label for="fname">Tên :</label>
+      <input type="text" id="fname" id="fname" /> <br />
+      <br />
+      <input type="hidden" id="cusId" name="cusId" value="123" />
+      <input type="submit" value="Gửi !" />
+    </form>
+  </body>
+</html>

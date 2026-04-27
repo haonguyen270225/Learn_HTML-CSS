@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Các kiểu type của thẻ input !</title>
+  </head>
+  <body>
+    <p>
+      - Định nghĩa một điều khiển phạm vi để nhập một số giá trị mà giá trị
+      chính xác của nó không quá quan trọng (giống như thanh trượt) <br />
+      - Phạm vi mặc định từ 0 - 100 , tuy nhiên bạn có thể đặt các giới hạn về
+      giá trị được chấp nhận bằng các thuộc tính : max , min , step và value.
+    </p>
+    <p>Ví dụ :</p>
+    <form action="" method="get">
+      <label for="vol">Volume (between 0 and 50 ) :</label>
+      <input type="range" id="vol" name="vol" max="50" min="0" step="0.5" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

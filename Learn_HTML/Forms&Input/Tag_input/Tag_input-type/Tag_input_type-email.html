@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Các kiểu type của phần tử input !</title>
+  </head>
+  <body>
+    <h1>
+      email : Xác định một trường nhập liệu để nhập địa chỉ email (sẽ được tự
+      động kiểm tra tính hợp lệ trước khi gửi dữ liệu !)
+    </h1>
+    <p>Hiển thị ô nhập email (chỉ cho phép nhập một địa chỉ email !)</p>
+    <form action="" method="get">
+      <label for="email">Nhập email của bạn : </label>
+      <input type="email" id="email" name="email" /> <br />
+      <br />
+      <input type="submit" value="Gửi !" />
+    </form>
+
+    <p>
+      Hiển thị ô nhập email (cho phép nhập nhiều địa chỉ email ).Phân các mỗi
+      email bằng dấu phẩy.
+    </p>
+    <form action="" method="get">
+      <label for="emails">Nhập email của bạn : </label>
+      <input type="email" id="emails" name="emails" multiple /> <br />
+      <br />
+      <input type="submit" value="Gửi !" />
+    </form>
+  </body>
+</html>
