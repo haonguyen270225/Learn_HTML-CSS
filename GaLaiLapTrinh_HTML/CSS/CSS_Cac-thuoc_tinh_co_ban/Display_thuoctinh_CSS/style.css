@@ -1,0 +1,6 @@
+h2 {
+  /* Ẩn phần tử ! */
+  display: none;
+}
+/* Làm phần tưr biến mất khỏi giao diện , không tương tác 
+được và không chiếm không gian ! */

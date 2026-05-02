@@ -1,0 +1,19 @@
+h1 {
+  /* Màu chữ Ctrl + / để comment */
+  color: brown;
+
+  /* Kiểu chữ */
+  font-style: italic;
+
+  /* font chữ */
+  font-family: "Courier New", Courier, monospace;
+
+  /* Chuyển hoa thường  */
+  text-transform: uppercase;
+
+  /* Căn giữa */
+  text-align: center;
+
+  /* Cỡ chữ */
+  font-size: 20px;
+}

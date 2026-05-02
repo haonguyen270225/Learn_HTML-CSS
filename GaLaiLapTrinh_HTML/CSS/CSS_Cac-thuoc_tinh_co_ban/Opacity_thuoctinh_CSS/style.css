@@ -1,0 +1,26 @@
+h1 {
+  opacity: 50%;
+  color: aliceblue;
+  background-color: brown;
+}
+
+h2 {
+  opacity: 0.1;
+  color: aliceblue;
+}
+
+h3 {
+  opacity: 100%;
+  color: aliceblue;
+}
+
+h4 {
+  opacity: 0;
+}
+h5 {
+  color: red;
+  opacity: 20%;
+}
+body {
+  background-image: url(./img/image-opacity.jpg);
+}

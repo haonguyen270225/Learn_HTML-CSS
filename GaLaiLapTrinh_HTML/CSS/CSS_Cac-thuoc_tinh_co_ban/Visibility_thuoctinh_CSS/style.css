@@ -1,0 +1,14 @@
+h2 {
+  /* Ẩn phần tử ! */
+  visibility: hidden;
+}
+
+h3 {
+  /* Hiện phần tử ! */
+  visibility: visible;
+}
+
+/* visibility : hidden; Ẩn phần tử
+  - Không nhìn thấy trên giao diện !
+  - Vẫn chiếm không gian !
+  - Không tương tác được !  */
