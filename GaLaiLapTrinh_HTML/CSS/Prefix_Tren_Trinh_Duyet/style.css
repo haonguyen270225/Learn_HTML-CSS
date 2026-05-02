@@ -1,0 +1,14 @@
+/* h1 {
+  color: brown;
+  font-size: 30px;
+  user-select: none;
+} */
+
+h1 {
+  color: brown;
+  font-size: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
