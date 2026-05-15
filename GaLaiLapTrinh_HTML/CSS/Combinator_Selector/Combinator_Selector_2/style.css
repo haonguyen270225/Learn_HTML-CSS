@@ -1,0 +1,13 @@
+/* Sử dụng bộ chọn element,element  */
+
+p,
+.demo,
+#line_3 {
+  color: red;
+}
+
+/* Sử dụng bộ chọn .class1.class2 */
+/* Tác động lên phần tử có class là demo vv demo2 */
+.demo.demo2 {
+  color: aqua;
+}

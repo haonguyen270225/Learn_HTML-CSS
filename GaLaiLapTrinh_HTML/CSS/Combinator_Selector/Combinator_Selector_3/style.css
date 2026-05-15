@@ -1,0 +1,17 @@
+/* Tác động lên phần tử p nằm trong div */
+div p {
+  color: red;
+}
+
+/* Tác động lên phần tử p nằm trong class loi_chuc */
+
+.loi_chuc p {
+  color: yellow;
+  font-size: 30px;
+}
+
+/* Tác động đến thẻ p là thẻ con trực tiếp của thẻ div  */
+div > p {
+  color: blueviolet;
+  font-size: 20px;
+}

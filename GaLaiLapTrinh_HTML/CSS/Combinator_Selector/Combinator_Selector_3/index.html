@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bộ chọn Spacce selector và > selector !</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Thông tin sinh viên ?</h1>
+    <h2 class="demo">Bạn tên gì ?</h2>
+    <h3 clas="demo" demo2>Bạn có phải là sinh viên !</h3>
+    <h3>Bạn đang sống ở đâu !</h3>
+
+    <!-- Thẻ p nằm trong thẻ div -->
+    <div>
+      <p>Bạn học ngành gì ?</p>
+    </div>
+    <!-- Thẻ p nằm trong class  loi_chuc  -->
+    <div class="loi_chuc">
+      <p>Chúc bạn học tốt !</p>
+    </div>
+
+    <!-- > selector tác động đến thẻ là thẻ con trực tiếp ! -->
+    <div>
+      <p>Chúc bạn may mắn !</p>  <!-- Đây là thẻ p là thẻ con trực tiếp của thẻ div !-->
+      <block>
+         <p>Chúc bạn may mắn !</p> <!--Đây là thẻ p không phải là thẻ con trực tiếp của thẻ div !-->
+      </block>
+    </div>
+  </body>
+</html>

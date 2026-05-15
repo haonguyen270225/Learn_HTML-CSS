@@ -1,0 +1,22 @@
+/* Tác động đến phần tử đầu tiên đứng ngay sau h1 */
+h1 + h2 {
+  color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Tác động đến phần tử đứng ngay sau class demo */
+
+.demo + h3 {
+  color: aqua;
+}
+
+/* Tác động đến phần tử đứng sau thẻ div ! */
+div ~ div {
+  color: blueviolet;
+}
+
+/* Tác động đến phần tử đứng sau class loi_chuc ! */
+.loi_chuc ~ p {
+  color: aqua;
+  font-size: 30px;
+}

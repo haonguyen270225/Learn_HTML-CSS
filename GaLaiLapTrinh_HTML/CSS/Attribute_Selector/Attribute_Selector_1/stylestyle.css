@@ -1,0 +1,21 @@
+/* Tác động đến thẻ có thuộc tính href */
+[href] {
+  color: brown;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Tác động đến thẻ a có thuộc tính href */
+/* a[href] {
+  color: blue;
+} */
+
+/* Tác động đến thẻ a có thuộc tính target = "_blank" */
+
+[target="_blank"] {
+  color: rgb(195, 223, 10);
+}
+
+/* Tác động lên thẻ a có thuộc tính target = "_self" */
+a[target="_self"] {
+  color: cadetblue;
+}

@@ -1,0 +1,20 @@
+#line1:hover{
+    color: brown;
+    font-size: 30px;
+}
+
+.class_line2:hover{
+    color: rgba(58, 68, 87, 0.234);
+    font-size: 30px;
+}
+/* 
+p:hover{
+     color: rgba(207, 229, 11, 0.234);
+    font-size: 30px;
+} */
+
+#line3:active{
+    color: green;
+    font-size: 50px;
+    inset-inline: inherit;
+}

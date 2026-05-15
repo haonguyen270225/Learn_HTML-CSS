@@ -1,0 +1,14 @@
+/* Tác động đến phần tử p có  class là demo ! */
+p.demo {
+  color: red;
+}
+
+/* Tác động đến phần tử  p có class là intro ! */
+p.intro {
+  color: blue;
+}
+
+/* Tác động đến tất cả các phần tử trên trang html ! */
+* {
+  color: brown;
+}

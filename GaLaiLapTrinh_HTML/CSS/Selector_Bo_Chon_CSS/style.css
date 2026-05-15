@@ -1,0 +1,21 @@
+p {
+  color: red;
+  font-size: 20px;
+}
+
+h1 {
+  color: blue;
+}
+
+#line_2 {
+  color: brown;
+}
+
+.demo {
+  color: brown;
+}
+
+.demo1 {
+  color: blue;
+  font-size: 30px;
+}
