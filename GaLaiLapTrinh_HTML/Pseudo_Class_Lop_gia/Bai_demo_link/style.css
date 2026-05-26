@@ -1,0 +1,19 @@
+/* Liên kết chưa được truy cập : uncisited link ! */
+a:link {
+  color: red;
+}
+
+/* Link đã truy cập : visited link ! */
+a:visited {
+  color: green;
+}
+
+/* Di chuột qua link : mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* Link khi nhấn chọn : selected link */
+a:active {
+  color: blue;
+}

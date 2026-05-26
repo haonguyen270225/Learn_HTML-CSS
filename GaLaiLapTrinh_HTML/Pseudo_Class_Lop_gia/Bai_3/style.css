@@ -1,0 +1,49 @@
+/* :first-child - Tác động đến thẻ p là thẻ con đầu tiên ! */
+/* p:first-child {
+  color: brown;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+} */
+
+/* :last-child - Tắc động đến thẻ p là thẻ con cuối cùng ! */
+/* p:last-child {
+  color: blue;
+  font-size: 30px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+} */
+
+/* :nth-child(even) Tắc động đến thẻ p là thẻ con nhưng ở vị trí chẵn ! */
+/* p:nth-child(even) {
+  color: blueviolet;
+  font-size: 30px;
+} */
+
+/*:nth-child(odd) Tắc động đến thẻ p là con nhưng ở vị trí lẻ !*/
+/* p:nth-child(odd) {
+  color: burlywood;
+  font-size: 30px;
+} */
+
+/* 
+n = 0 -> 1;
+n = 1 -> 4;
+n = 2 -> 7;
+*/
+/* :nth-child(3n+1) - Tắc động đến thẻ p là con có tứ tự theo n từ 0 -> +00 !*/
+/* p:nth-child(3n+1){
+    color: cadetblue;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* :nth-last-child - Tác đông đến thẻ p thứ 2 tính từ dưới lên ! */
+/* p:nth-last-child(2) {
+  color: chocolate;
+  font-size: 30px;
+} */
+
+/* :only-child - Tắc động đến thẻ p là thẻ con duy nhất ! */
+p:only-child{
+    color: blueviolet;
+    font-size: 30px;
+}

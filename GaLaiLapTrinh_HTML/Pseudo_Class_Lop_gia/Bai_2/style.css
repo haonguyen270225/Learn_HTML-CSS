@@ -1,0 +1,19 @@
+/* :empty : Tác động đến thẻ div có class = .div_elm không có nội dung bên trong ! */
+.div_elm:empty {
+  width: 200px; /*Gõ tắc : w200 */
+  height: 200px; /*Gõ tắc : h200 */
+  background-color: brown;
+}
+
+/* Tắc động đến thẻ div class = .div_elm có nội dung bên trong ! */
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+}
+
+/* :target Tác động đến thẻ có id # hash mà ta muốn nhảy đến ! */
+h2:target {
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

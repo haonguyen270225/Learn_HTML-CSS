@@ -1,0 +1,17 @@
+/* Tác động lên selector khi nhấn giữ chuột ! */
+.di_chuot:active {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+/* Tác động đến link chưa truy cập ! */
+.click_me:link {
+  color: brown;
+  font-size: 30px;
+}
+
+/* Tác động đến selector khi người dùng đã truy cập vào link từ trước ! */
+.click_me:visited {
+  color: red;
+  font-size: 30px;
+}

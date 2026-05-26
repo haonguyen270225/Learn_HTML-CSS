@@ -1,0 +1,45 @@
+/* TH1: */
+/* Tác động lên thẻ p là thẻ con đầu tiên !
+p:first-child {
+  color: red;
+  font-size: 30px;
+}
+
+/* Tác động đến thẻ đến thẻ con đầu tiên là loại thẻ p ! */
+/* p:first-of-type {
+  color: blue;
+  font-size: 30px;
+} */ 
+
+/* TH2: */
+/* Tác động đến  thẻ p là lần xuất hiện thứ 3 */
+/* p:nth-child(3){
+    color: green;
+    font-size: 30px;    
+} */
+
+/* Tác động đến loại thẻ p xuất hiện lần thứ 3 */
+ /* p:nth-of-type(3){
+    color: orange;
+    font-size: 30px;    
+}  */
+
+/* TH3 : */
+/* Tác động đến thẻ p xuất hiện cuối cùng  */
+/* p:last-child{
+    color: purple;
+    font-size: 30px;    
+} */
+
+/* Tác động đến loại thẻ p là  lần xuất hiện cuối cùng */
+/* p:last-of-type{
+    color: rgb(255, 0, 43);
+    font-size: 30px;    
+} */
+
+/* TH4 : */
+/* Tác động đến loại thẻ p là thẻ con duy nhất ! */
+p:only-of-type{
+    color: rgb(194, 19, 159);
+    font-size: 30px;    
+}
