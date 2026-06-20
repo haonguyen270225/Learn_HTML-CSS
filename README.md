@@ -5,3 +5,4 @@
    - Trang web tra cứu các thuộc tính CSS có hỗ trợ đa trình duyệt hay không caniuse.com : https://caniuse.com/
    - Trang web kiểm tra lỗi sử dụng trang validator : https://validator.w3.org/
    - Trang web tra cứu tài liệu học CSS mozilla : https://developer.mozilla.org/en-US/
+   - Trang web lấy file reset.css meyerweb : https://meyerweb.com/eric/tools/css/reset/
