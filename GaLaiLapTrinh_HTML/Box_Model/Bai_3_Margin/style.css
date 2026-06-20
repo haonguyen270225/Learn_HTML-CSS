@@ -1,0 +1,21 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.box1
+{
+    border:10px solid burlywood;
+}
+.box2
+{
+    border:10px solid rgb(11, 182, 40);
+    margin-left: 240px;
+}
+.box3
+{
+    border:10px solid rgb(33, 23, 218);
+    margin-left: 480px;
+}

@@ -1,0 +1,24 @@
+/* div.box {
+  width: 100px !important;
+  height: 100px !important;
+  color: green;
+  background-color: red;
+  /* padding: 20px; */
+/* padding-top: 30px; */
+/* padding-right: 30px; */
+/* padding-left: 30px;
+}  */  
+
+div.box {
+  width: 100px;
+  height: 100px;
+  color: green;
+  background-color: red;
+  /* Trên dưới - trái phải   */
+  padding : 20px 30px; 
+  /* Trên - trái phải - dưới  */
+  padding:20px 30px 40px; 
+   /* Trên - phải - dưới - trái  */
+  padding: 20px 30px 40px 50px;
+   /* Trên, Phải, Dưới, Trái  -> Theo chiều kim đồng hồ */
+}

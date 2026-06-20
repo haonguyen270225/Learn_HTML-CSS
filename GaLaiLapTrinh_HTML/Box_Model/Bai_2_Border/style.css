@@ -1,0 +1,103 @@
+/* Cách viết border viết  tắt : <line-width> || <line-style> || <color> : <độ rộng> || <kiểu> || <màu> */
+/* Cách 1 :  */
+/* div {
+  width: 200px;
+  height: 200px;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  border: 20px solid rgb(30, 3, 3);
+} */
+
+/* Cách 2 Xác định các kiểu từng cạnh : border-top , border-bottom ,  border-left , border-right : Trên , dưới ,  trái , phải */
+/* 
+ div {
+  width: 200px;
+  height: 200px;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  /* Xác định kiểu border ! */
+/* Xác định kiểu đường viền trên !  */
+/* border-top: 20px solid green; */
+/* Xác định kiểu đường viền dưới  !*/
+/* border-bottom: 30px groove blue; */
+/* Xác định kiểu đường viền trái ! */
+/* border-left: 15px dashed yellow; */
+/* Xác định kiểu đường viền phải ! */
+/* border-right: 12px double violet; */
+/* }   */
+
+/* Cách 3 Viết tường minh : tương set chiều rộng (line-width) giống như đã học ở padding ! */
+/* div {
+  width: 200px;
+  height: 200px;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  /* Xác định kiểu border ! */
+/* Tường hợp 1 : Xác định chiều rộng cả 4 cạnh ! */
+/* border-width: 90px; */
+/* Trường hợp 2 : Xác định chiều rộng với 2 tham số : 20px  50px 
+  -> 20px cho trên ,  dưới và 50px cho trái , phải.*/
+/* border-width: 20px 50px; */
+/* Trường hợp 3 : Xác định chiều rộng  với 3 tham số : 10px 30px 100px 
+  ->  10px cho đường viền trên
+  -> 100px cho đường viền dưới
+  -> ở giữa 30px cho trái, phải ! */
+/* border-width: 10px 30px 100px; */
+/* Trường hợp 4 : Xác định chiều rộng với 4 tham số đầy đủ : 10px 20px 30px 40px
+  -> Theo chiều kim đông hồ ;
+  -> 10px cho đường viền trên
+  -> 20px cho đường viền phải
+  -> 30px cho đường viền dưới
+  -> 40px cho đường viền trái !  */
+/* border-width: 10px 20px 30px 40px; */
+
+/* Tương tự ta có thể xác định kiểu và màu :  */
+/* Xác định kiểu */
+/* border-style: dashed double solid groove; */
+/* Xác định màu :  */
+/* border-color: blueviolet red pink green; */
+/* } */
+
+/* Thuộc tính border-radius : bo góc*/
+
+body {
+  background-color: black;
+}
+div {
+  width: 200px;
+  height: 200px;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
+  background-color: red;
+  border: 5px solid white;
+  /* Bo góc */
+  /* Với 1 tham số : 30px 
+  -> Bo cả 4 góc 30px */
+  border-radius: 30px;
+
+  /* Với 2 tham số : 10px 50px 
+  -> 10px cho góc trên trái  , dưới phải
+  -> 50px cho góc dưới trái , trên phải */
+  border-radius: 10px 50px;
+
+  /* Với 3 tham số : 10px 50px 100px 
+  -> 10px cho góc trên trái
+  -> 100px cho góc dưới phải 
+  -> 50px  ở giữa cho góc trên phải , dưới trái.*/
+  border-radius: 10px 50px 100px;
+
+  /* Với 4 tham số đầy đủ : 5px 20px 50px 100px
+  -> xác định theo chiều kim đồng hồ !
+  -> 5px cho góc trên trái
+   -> 20px cho góc trên phải
+   -> 50px cho góc dưới phải
+   -> 100px cho góc dưới trái */
+  border-radius: 5px 20px 50px 100px;
+}

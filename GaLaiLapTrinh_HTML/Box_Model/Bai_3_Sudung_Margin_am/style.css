@@ -1,0 +1,21 @@
+.avata {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid brown;
+  margin-left: -70px;
+}
+
+/* Tác động đến phần tử có class = "avata" là con đầu tiên */
+.avata:first-child {
+  margin-left: 0;
+}
+
+.content {
+  background-color: blueviolet;
+  padding: 30px;
+}
+
+body {
+  display: inline-block;
+}
