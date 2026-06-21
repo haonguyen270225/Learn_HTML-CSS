@@ -1,0 +1,13 @@
+h2 {
+  /* Pixle - px trong CSS là đơn vị tuyệt đối - độ dài tuyệt đối (Absolute Lenghts) */
+  font-size: 30px;
+  width: 300px;
+  height: 30px;
+  background-color: brown;
+}
+
+p {
+  /* % trong CSS là độ dài tương đối - phụ thuộc vào phần tử cha . (Realative Lenghts) */
+  width: 50%;
+  background-color: blanchedalmond;
+}
