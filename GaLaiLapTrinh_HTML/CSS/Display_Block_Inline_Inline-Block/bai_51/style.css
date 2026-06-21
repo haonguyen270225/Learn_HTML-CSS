@@ -1,0 +1,17 @@
+body {
+  width: 50%;
+  height: 500px;
+}
+
+/* Với các thẻ có giá trị display : inline*/
+/* Các giá trị padding-top ,  padding-bottom , margin-top , margin-bottom , height , width , min-height và min-width sẽ không có tác dụng ! */
+/* Nếu ta tác động vào thẻ strong thì các giá trị trên nếu có sẽ không có tác đông ! */
+
+strong {
+  border: 2px solid red;
+  /* Tác động đến thẻ strong  */
+  /* padding:30px; */
+  margin: 100px;
+  /* Sử dụng display:inline-block để sử dụng các thuộc tính trên ! */
+  /* display: inline-block; */
+}
