@@ -1,0 +1,50 @@
+/* .parent {
+  font-size: 10px;
+} */
+/* Không phụ thuộc vào thẻ cha !  */
+/* html {
+  font-size: 40px;
+} */
+
+/* .child {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  border: 2px solid red;
+} */
+
+/* Chuyển đổi pixel sang rem ! */
+/* Trước khi chuyển đổi ! */
+/* html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+} */
+
+/* Sau khi chuyển đỏi pixel sang rem ! */
+/* Đật giá trị font-size của html là 62.5% */
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 4rem;
+}
+p {
+  font-size: 2rem;
+}
+.box {
+  width: 20rem;
+  height: 20rem;
+  background-color: brown;
+}
+/*  Muốn thêm 10% -> chỉ cần lấy 62.5% + 10% = 72.5% trên phần tử html ! */

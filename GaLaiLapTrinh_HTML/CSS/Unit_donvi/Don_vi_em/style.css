@@ -1,0 +1,58 @@
+/* Đơn vị em là đơn vị tương đối - Nó phụ thuộc vào font-size hiện tại cảu phần tử ! (có kế thừa)  */
+/* TH1: Thẻ cha và thẻ con không có font-size !*/
+/* .child {
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+/* -> width = height = 160 px vì phụ thuộc vào root (html) font-size mạc định của trình duyệt ! */
+
+/* TH2 : Thẻ cha có font cha tuyệt đối ! */
+/* .parent {
+  font-size: 20px;
+}
+.child {
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+/* width = height = 200 px */
+
+/* TH3 : Cả thẻ cha và thẻ con đều đặt font-size tuyệt đối -> ưu tiên font-size hiện tại cảu thẻ con ! */
+/* .parent {
+  font-size: 15px;
+}
+.child {
+  font-size: 20px;
+  width: 10em;
+  height: 10em;
+  background-color: brown;
+} */
+/* -> width = height = 200px. */
+
+/* TH4 :  Thẻ cha có font size tương đối. 
+-> Thẻ cha sẽ lấy kích thước từ trình duyệt (html gốc) thường là 16px 
+-> Thẻ con tiếp  tục kế thừa từ thẻ cha ! */
+/* .parent {
+  font-size: 2em;
+}
+.child {
+  font-size: 2em;
+  width: 10em;
+  height: 10em;
+  background-color: blue;
+} */
+/* -> width = height = 640 px. */
+
+/* Chú  ý : Vì tính chất kế thừa tù font-size, nen cần chú ý các thẻ con có tính chất xếp tằng ! */
+.parent {
+  font-size: 10px;
+}
+
+.child {
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  background-color: blueviolet;
+  margin: 50px;
+}
