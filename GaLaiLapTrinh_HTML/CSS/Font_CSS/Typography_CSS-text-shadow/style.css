@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+  background-color: brown;
+}
+.line {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+/* Cách dùng thuộc tính text-shadow  */
+.line1 {
+  text-shadow: 15px 0px 0px brown;
+  /* 
+  Tùy chỉnh đổ bóng :
+  horizontal sang phải 15px
+  vertical  0px 
+  Blur độ nhòe 0px
+  Color brown. 
+  */
+}
+
+.line2 {
+  text-shadow: -15px 0px 4px olive;
+  /*
+  Tùy chỉnh đổ bóng :
+  horizontal sang trái 15px
+  vertical  0px 
+  Blur độ nhòe 4px
+  Color olive. 
+   */
+}
+.line3 {
+  text-shadow: 0px 15px 0px violet;
+  /*
+  Tùy chỉnh đổ bóng :
+  horizontal 0px
+  vertical xuống dưới 15px 
+  Blur độ nhòe 0px
+  Color violet. 
+   */
+}
+
+.line4 {
+  text-shadow: 0px -15px 10px violet;
+  /*
+  Tùy chỉnh đổ bóng :
+  horizontal  0px
+  vertical lên trên 15px
+  Blur độ nhòe  
+   */
+}
+
+.line5 {
+  text-shadow: 10px -15px 10px rgb(74, 192, 15);
+  /* Tùy chỉnh đổ bóng:
+   horizontal qua trái 10px
+   vertical lên trên 15px
+   Blur độ nhòe 10px 
+   màu rgb.
+   */
+}
+
+body {
+  background: #54c287;
+  background: #54c287;
+  background: linear-gradient(
+    90deg,
+    rgba(84, 194, 135, 1) 0%,
+    rgba(78, 33, 122, 1) 84%
+  );
+}

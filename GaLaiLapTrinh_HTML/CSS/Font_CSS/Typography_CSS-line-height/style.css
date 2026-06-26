@@ -1,0 +1,26 @@
+h1,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h1 {
+  background-color: brown;
+  border-radius: 10px;
+  /* width: 100px; */
+  height: 100px;
+  line-height: 100px;
+  /* Ta có thể dựa vào line-height để điều chỉnh text cho nằm giữa  !  */
+  padding-left: 45px;
+}
+
+p {
+  font-size: 16xp;
+  line-height: 1.5;
+  line-height: 150%;
+  /* Tùy chỉnh khoảng cách dòng dựa trên font-size hiện tại ! */
+  color: brown;
+  border: 2px solid violet;
+  padding: 10px;
+}

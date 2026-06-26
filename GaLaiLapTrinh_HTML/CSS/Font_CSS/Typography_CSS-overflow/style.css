@@ -1,0 +1,13 @@
+.box {
+  background-color: brown;
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+  /* overflow : visible -> giá trị mặc định của overflow ! */
+  overflow: scroll;
+  /* overflow : scroll -> Hiển thị thanh cuộn dọc/ngang nếu văn bản hiển thị quá chiều dọc / ngang ! */
+  overflow: hidden;
+  /* overflow : hidden -> Ẩn văn bản khi quá box chứa nó ! */
+  overflow: auto;
+  /* overflow : auto tương tự như scroll nhưng chỉ hiển thị khi văn bản vượt quá chiều dài box chứa nó ! */
+}

@@ -1,0 +1,50 @@
+/* Thuộc tính text-decoration : Chỉ định kiểu dạch trên text ! */
+/* Các thuộc tính :  */
+/* text-decoration:none; -> Chỉ định text không có gạch ! .
+    text-decoration:underline; -> Chỉ định text gạch dưới chân !.
+    text-decoration:line-through; -> Chỉ định text có gạch giữa chữ !.
+    text-decorationn:overline; -> Chỉ định text có gạch phía trên !.
+  text-decoration: overline dotted blue 10px; -> Các kiểu có thể xác định loại gạch ,  màu sắc và kích thước riêng !.
+
+*/
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  background-color: brown;
+  height: 50px;
+  line-height: 40px;
+  border: 10px solid rgb(175, 161, 161);
+  border-radius: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+.line1 {
+  text-decoration: none;
+  /* -> text-decoration: none -> chỉ định text không có gạch ! */
+  color: #00e200;
+}
+
+.line2 {
+  text-decoration: underline;
+  /* text-decorastion : underline; -> chỉ định text có gạch dưới chân ! */
+  color: rebeccapurple;
+}
+.line3 {
+  text-decoration: line-through;
+  /* text-decoration: line-through; -> hiển thị chữ có gạch giữa ! */
+  color: rgba(0, 0, 0, 0.455);
+}
+
+.line4 {
+  text-decoration: overline;
+  /* text-decoration; -> Hiển thị text có gạch phía trên ! */
+  color: yellow;
+}
+
+.line5 {
+  text-decoration: overline dotted rgb(255, 0, 81) 10px;
+}

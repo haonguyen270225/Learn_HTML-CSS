@@ -1,0 +1,17 @@
+/* Tạo dấu 3 chấm trên 1 dòng aihefli;aef.... */
+h1 {
+  width: 300px;
+  background-color: brown;
+  white-space: nowrap; /* Chỉ hiển thị nội dung trên 1 dòng ! */
+  overflow: hidden; /* Ẩn nội dung vượt quá box */
+  text-overflow: ellipsis; /* Hiển thị ... */
+}
+
+/* Tạo dấu 3 chấm trên dòng 2 , 3 ... */
+h2 {
+  background-color: dimgray;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

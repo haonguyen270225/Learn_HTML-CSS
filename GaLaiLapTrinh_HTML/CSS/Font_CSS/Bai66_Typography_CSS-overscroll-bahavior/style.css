@@ -1,0 +1,38 @@
+/* overcroll-bahavior có 3 giá trị ! */
+/* overcroll-behavior: none : dùng trong mobile ! */
+/* overcroll-behavior: auto : Giá trị mặc định ! */
+/* overcroll-behavior : contain : Chỉ scroll được trên khung đang chọn ! */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  /* Tạo scroll hiển thị văn bản !*/
+  overflow: auto;
+  overscroll-behavior: auto;
+  /* overscroll-behavior : auto -> giá trị mặc định ! */
+  overscroll-behavior: contain;
+  /* overcroll-behavior : contain : Chỉ scroll được trên khung đang chọn ! */
+}
+
+/* Cusstom  scrollbar CSS : */
+
+/* width */
+.box::-webkit-scrollbar {
+  width: 30px;
+}
+
+/* Track */
+.box::-webkit-scrollbar-track {
+  background: #ff0000;
+}
+
+/* Handle */
+.box::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:hover {
+  background: #ffcc00;
+}

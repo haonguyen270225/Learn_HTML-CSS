@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  background-color: bisque;
+  border: 10px solid rgba(0, 0, 0, 0.566);
+  border-radius: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+/*  Các kiểu text-transform ! */
+.line1 {
+  text-transform: capitalize;
+  /* Viết hoa các ký tự đầu mỗi từ ! */
+  color: aqua;
+}
+
+.line2 {
+  text-transform: lowercase;
+  /*  Viết thường tất cả text ! */
+  color: rgba(165, 23, 175, 0.451);
+}
+
+.line3 {
+  text-transform: uppercase;
+  /* Viết hoa tất cả các ký tự ! */
+  color: red;
+}

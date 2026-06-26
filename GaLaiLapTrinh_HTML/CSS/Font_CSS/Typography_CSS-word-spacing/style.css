@@ -1,0 +1,7 @@
+h1,
+p {
+  /* word-spacing: 100px; */
+  /* word-spacing: 10px; */
+  word-spacing: -10px;
+}
+/* word-spacing giúp tùy chỉnh khoản cách các từ hiển thị ! */

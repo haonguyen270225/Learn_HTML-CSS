@@ -1,0 +1,11 @@
+li {
+  list-style-type: none; /* Xóa dấu chấm trên mỗi li */
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+/* Tác dộng thuộc tính đến các thẻ có class fa-solid và fa-brands */
+.fa-solid,
+.fa-brands {
+  color: rgb(220, 17, 206);
+}
