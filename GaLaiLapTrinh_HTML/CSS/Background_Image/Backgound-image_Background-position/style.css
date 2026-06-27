@@ -1,0 +1,77 @@
+img {
+  margin-top: 30px;
+}
+/* Sử dung thuộc tính background-position : Vị trí bất đầu của hình ảnh ! */
+/* background-position : top left; --> Giá trị mặc định ! Bắt đầu từ góc trên bên trái ! */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/* background-position : top; --> Bất đâu từ góc tên giữa ảnh ! */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: top;
+}
+/* background-position : left; --> Bất đầu ở giữa bên trái ảnh !  */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: left;
+}
+
+/* background-position : right; --> Bất đầu ở  giữ bên phải ảnh ! */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: right;
+}
+
+/* background-position : bottom; -> Bất đầu ở giữa bên dưới ảnh !  */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: bottom;
+}
+
+/* background-position : center; --> Bất đầu ở giữa ảnh ! */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: center;
+}
+/* Và các góc tương tự : top left , top right, bottom left , bottom right */
+
+/* Truyền % vào background-position  */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: 70% 80%;
+  background-repeat: no-repeat;
+}
+
+/* Truyền vào  giá trị tuyệt đối ! */
+.box {
+  width: 200px;
+  height: 100px;
+  border: 3px dotted brown;
+  background-image: url(../bg/Anh_cho.png);
+  background-position: 100px 20px;
+}

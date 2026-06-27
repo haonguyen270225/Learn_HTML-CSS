@@ -1,0 +1,17 @@
+/* background-image: none; Sử dụng background-image : none để ẩn hình nền đi ! */
+/* background-image: url(../bg/texture_backgound_image_03.avif); background-image : url để thiết lập hình nền cho .box */
+/* Có thể dùng background-image : none; để bỏ hiển thị background ! */
+
+/* .box {
+  height: 100vh;
+  background-image: url(../bg/texture_backgound_image_03.avif);
+} */
+
+/* Có thể dùng background-image : để kết hợp nhiều ảnh ! */
+
+.box {
+  height: 100vh;
+  background-image:
+    url(../bg/leaf.png), url(../bg/texture_backgound_image_03.avif);
+}
+/* Ảnh nào có URL trước sẽ hiển thị trước ! Chú ý ảnh trước nên là ảnh png để tránh tre ảnh phía sau ! */

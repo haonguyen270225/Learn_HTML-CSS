@@ -1,0 +1,17 @@
+.box {
+  text-align: justify;
+  background-color: aqua;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px dotted brown;
+}
+
+.demo {
+  max-width: 700px;
+  /* Mẹo căn giữa ảnh ! */
+  display: block;
+  margin: 0 auto;
+}
+/* .demo{
+    max-width: ;
+} */

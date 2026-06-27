@@ -1,0 +1,16 @@
+.img_avata {
+  max-width: 300px;
+  pointer-events: none;
+}
+
+.btn_link {
+  background-color: brown;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+
+  /* Sử dụng thuộc tính pointer-events */
+  pointer-events: none;
+}

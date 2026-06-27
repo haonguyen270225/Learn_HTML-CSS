@@ -1,0 +1,43 @@
+/* Thuộc tính background-clip : border-box (mặc định !) , padding-box và content-box ! */
+.box {
+  width: 200px;
+  height: 300px;
+  background-image: url(../bg/1.PNG);
+  border: 50px dotted red;
+  padding: 50px;
+  margin: 20px;
+}
+.box1 {
+  background-clip: border-box;
+}
+
+.box2 {
+  background-clip: padding-box;
+}
+
+.box3 {
+  background-clip: content-box;
+}
+
+/* Nếu không hỗ trợ ! */
+.text_h1 {
+  color: green;
+}
+
+/* Chuyển màu chữ với background-clip: text ! */
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .text_h1 {
+    color: transparent;
+    /* Chuyển  màu chữ trong suốt ! */
+    background: #c1bee8;
+    background: linear-gradient(
+      90deg,
+      rgba(193, 190, 232, 1) 0%,
+      rgba(9, 9, 121, 1) 44%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}

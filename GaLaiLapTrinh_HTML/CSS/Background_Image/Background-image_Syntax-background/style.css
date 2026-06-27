@@ -1,0 +1,17 @@
+/* Cú pháp :  
+    background : bg-color bg-image bg-position / bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;  */
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 50px dotted red;
+  padding: 50px;
+
+  background: red;
+  background: red url(../bg/1.PNG);
+  background: red url(../bg/1.PNG) center / contain;
+  background: red url(../bg/1.PNG) center / contain no-repeat;
+  background: red url(../bg/1.PNG) center / contain no-repeat content-box;
+  background: red url(../bg/1.PNG) center / contain no-repeat content-box
+    padding-box;
+}

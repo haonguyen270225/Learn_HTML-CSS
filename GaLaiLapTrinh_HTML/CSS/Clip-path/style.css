@@ -1,0 +1,29 @@
+/* clip-path :  tạo một vùng cắt nội dung sẽ hiển thị nếu trong vùng căt !
+ */
+
+.box {
+  width: 200px;
+  height: 200px;
+  /* Căn giữa div */
+  margin: 0 auto;
+  background: url(../bg/avata_girl.jpg) center/cover;
+  clip-path: circle(); /* Mặc định cicle trùng với tâm bức ảnh ! */
+  /* Ta có thể truyền vào % or px  */
+  clip-path: circle(40%);
+  clip-path: circle(80px);
+  /* Dịch tấm đường tròn ! */
+  clip-path: circle(40% at 50% 0%);
+
+  /* Sử dụng inset ! */
+  clip-path: inset(10px);
+  clip-path: inset(10px 30px);
+  clip-path: inset(10px 30px 20px);
+  clip-path: inset(10px 30px 20px 100px);
+  clip-path: inset(
+    10px 30px 20px 100px round 100px
+  ); /*  Thêm round để bo góc !  */
+
+  /* Sử dụng polygon() */
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 100%);
+  border-radius: 10px;
+}

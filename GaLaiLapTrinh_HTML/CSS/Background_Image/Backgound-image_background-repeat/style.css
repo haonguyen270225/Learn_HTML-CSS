@@ -1,0 +1,17 @@
+/* Sử dụng thuộc tính background-repeat ! */
+/* background-repeat : repeat; --> Giá trị mặc định ! */
+/* background-repeat : no-repeat; --> Giá trị không lặp ! */
+/* background-repeat : repeat-x; --> Lặp theo trục x */
+/* background-repeat : repeat-y; --> Lặp theo trục y ! */
+.box {
+  height: 100vh;
+  background-image: url(../bg/Anh_cho.png);
+  background-repeat: repeat;
+  /* repeat --> Giá trị mặc định ! */
+  background-repeat: no-repeat;
+  /* none --> Không lặp ! */
+  background-repeat: repeat-x;
+  /* repeat-x -->lặp theo trục x ! */
+  background-repeat: repeat-y;
+  /* repeat-y --> lặp theo trục y ! */
+}

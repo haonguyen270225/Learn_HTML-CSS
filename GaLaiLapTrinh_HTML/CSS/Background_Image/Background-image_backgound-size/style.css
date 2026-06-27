@@ -1,0 +1,57 @@
+img {
+  margin-top: 20px;
+}
+/* Sử dụng thuộc tính background-size -->  Giúp tùy chỉnh kích thước hình ảnh nền ! */
+/* Giá trị mặc định nếu không set background-size kích thước hiển thị tỷ lệ 1:1 ! */
+
+/* .box {
+  width: 500px;
+  height: 400px;
+  border: 4px dotted red;
+  background-image: url(../bg/Anh_cho.png);
+} */
+
+/* background-size : contain; 
+--> Ảnh vừa khung hình.
+--> Giữ nguyên tỷ lệ ảnh 
+--> Không bị mất ảnh 
+--> Nếu cong khoản trống , ảnh sẽ bị lặp lại ! */
+
+/* .box {
+  width: 500px;
+  height: 400px;
+  border: 4px dotted red;
+  background-image: url(../bg/Anh_cho.png);
+  background-size: contain;
+} */
+
+/* background-size: cover;
+--> Ảnh vừa khung hình
+--> Giữ nguyên tỷ lệ ảnh (không bị méo)
+--> Có thể mất 1 phần ảnh
+--> Không bị lặp !
+*/
+
+/* .box {
+  width: 500px;
+  height: 400px;
+  border: 4px dotted red;
+  background-image: url(../bg/Anh_cho.png);
+  background-size: cover;
+} */
+
+/* Ta cùng có thể truyền vào đối số tương đối hoặc tuyệt đối cho thuộc tính background-size. */
+/* background-size: 100%; --> chiều rộng = 100% chiều cộng box ! */
+/* background-size: 100%  100%; --> chiều rộng = 100% chiều cộng box ! 
+                                -->chiều cao = 1005 chiều cao bõ !  */
+/*  */
+.box {
+  width: 500px;
+  height: 400px;
+  border: 4px dotted red;
+  background-image: url(../bg/Anh_cho.png);
+  background-size: 50%;
+  background-size: 100% 100%;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
