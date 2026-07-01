@@ -1,0 +1,37 @@
+.box {
+  margin-left: 30px;
+  background-color: brown;
+  width: 70%;
+  margin: 0 auto;
+  border: 4px double blue;
+  border-radius: 30px;
+  color: aliceblue;
+  /* Sử dụng Counters CSS ! */
+  counter-reset: section; /* Tạo một biến đếm , reset = 0; */
+}
+
+h2 {
+  margin-left: 20px;
+  /* Nếu gặp thẻ h2 thì tăng biến đếm lên 1  */
+  counter-increment: section;
+
+  /* Tạo biến đếm và reset biến đếm thẻ h3 về 0 ! */
+  counter-reset: sub-section;
+}
+
+/* Thêm nội dung vào trước thẻ h2 : bằng phần tử giả (Pseudo Element !) */
+h2::before {
+  /* Thêm trước thẻ h2 : */
+  content: "Phần " counter(section) ": ";
+  color: blue;
+}
+
+h3 {
+  margin-left: 40px;
+  /* Nếu gặp thẻ h3 thì tăng biến đếm sub-section lên 1 !*/
+  counter-increment: sub-section;
+}
+
+h3::before {
+  content: counter(section) "." counter(sub-section) " ";
+}

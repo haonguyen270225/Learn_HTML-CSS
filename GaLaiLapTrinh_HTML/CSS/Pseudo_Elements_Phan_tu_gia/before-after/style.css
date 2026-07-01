@@ -1,0 +1,25 @@
+/*  ::before và ::after -> giúp thêm phần tử vào trước và sau !  */
+.box::before {
+  content: "Nội dung phía trước !";
+  background-color: brown;
+  font-size: 30px;
+
+  /* Chú ý phần tử mặc định của ::before và ::after khi được thêm vào có display : inline -> cần chuyển đỏi thành block or inline-block để có thế set được một số thuộc tính
+   */
+  display: block;
+  width: 200px;
+  height: 300px;
+  border: 3px dotted blue;
+}
+
+.box::after {
+  content: "Nội dung phía sau !";
+  background-color: brown;
+  font-size: 30px;
+  /* Chú ý phần tử mặc định của ::before và ::after khi được thêm vào có display : inline -> cần chuyển đỏi thành block or inline-block để có thế set được một số thuộc tính
+   */
+  display: block;
+  width: 200px;
+  height: 300px;
+  border: 3px dotted blue;
+}

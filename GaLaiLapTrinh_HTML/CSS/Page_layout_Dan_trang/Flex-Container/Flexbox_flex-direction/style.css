@@ -1,0 +1,19 @@
+* {
+  font-size: 1.5rem;
+}
+.box {
+  background-color: brown;
+  border: 2px solid yellow;
+}
+
+.container {
+  height: 300px;
+  display: flex;
+  background: #ccc;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  /* flex-direction: column-reverse; */
+
+  justify-content: space-evenly;
+}

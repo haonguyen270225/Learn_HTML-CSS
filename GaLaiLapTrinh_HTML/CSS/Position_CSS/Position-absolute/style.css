@@ -1,0 +1,49 @@
+.head {
+  background-color: yellow;
+  /* position: relative; */
+}
+.content {
+  width: 500px;
+  background: cyan;
+  /* Cho về giữa trang ! */
+  margin: 0 auto;
+
+  /* position: relative; */
+}
+.box {
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  /* Chỉnh text ra giữa khối ! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background: red;
+}
+
+.box2 {
+  background: green;
+  /* Sử dụng position : absolute */
+  position: absolute;
+  /* Khối  2 sẽ đề lên khối 3
+   vì khi dùng absolute khối 2 được  đẩy lên 1 layer khác !*/
+  /* width: 50px;
+  height: 50px; */
+  left: 0px;
+  top: 0px;
+  /* Vì cá thẻ tổ tiên .box 2 không có thẻ 
+  nào chứa position : relative -> box2 được định
+   vị theo góc trên bên trái trang web ! */
+}
+
+.box3 {
+  background: blue;
+}
+
+h1 {
+  background: purple;
+  color: aliceblue;
+}

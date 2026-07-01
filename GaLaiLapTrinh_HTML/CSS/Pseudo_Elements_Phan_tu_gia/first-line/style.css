@@ -1,0 +1,18 @@
+/* p::first-line -> Sử dụng để  chọn dòng đầu tiên của các thẻ p ! */
+p::first-line {
+  color: brown;
+}
+p {
+  margin-bottom: 30px;
+}
+/* Chú ý : ::first-line không áp dụng được với thẻ display:inline. 
+Mà chỉ áp dụng được với các thẻ display : block ! */
+
+/* span là thẻ có display mặc định là inline ! */
+span {
+  display: block;
+  display: inline-block;
+}
+span::first-line {
+  color: brown;
+}

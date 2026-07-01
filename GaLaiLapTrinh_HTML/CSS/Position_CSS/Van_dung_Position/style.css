@@ -1,0 +1,39 @@
+/* Version 1 */
+.mess_box {
+  /* background: yellow; */
+  display: inline-block;
+  font-size: 40px;
+  /* margin: 200px; */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.num_ber {
+  color: brown;
+  font-size: 20px;
+  position: absolute;
+  top: -7px;
+  left: 44px;
+}
+
+/* Version Teacher   */
+.noti {
+  margin: 5rem;
+  font-size: 10rem;
+  color: violet;
+  /* background: yellow; */
+
+  position: relative;
+}
+
+.mes_number {
+  font-size: 4rem;
+  background: red;
+  border-radius: 20px;
+  color: #fff;
+
+  position: absolute;
+  top: -30px;
+  left: 140px;
+}

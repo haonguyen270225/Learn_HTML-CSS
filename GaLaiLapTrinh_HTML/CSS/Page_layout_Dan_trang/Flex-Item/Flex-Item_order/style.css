@@ -1,0 +1,22 @@
+.container {
+  height: 15vh;
+  display: flex;
+  background-color: #ccc;
+}
+
+.box {
+  background-color: aqua;
+  border: 2px solid yellow;
+  width: 100px;
+}
+
+/* Dung order :  */
+.box1 {
+  order: 2;
+}
+.box2 {
+  order: 1;
+}
+.box3 {
+  order: 0; /* Default !-  mặc định !*/
+}

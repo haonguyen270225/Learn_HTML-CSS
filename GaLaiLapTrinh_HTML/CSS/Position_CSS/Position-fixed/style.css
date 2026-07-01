@@ -1,0 +1,34 @@
+.mes_bottom a {
+  font-size: 2rem;
+  color: #0084ff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.nav {
+  background: #555;
+  position: fixed;
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+  /* Có thể dùng inset : top right bottom left */
+  /* inset: 50px; */
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: 30px;
+}
+
+h1 {
+  margin-top: 50px;
+}

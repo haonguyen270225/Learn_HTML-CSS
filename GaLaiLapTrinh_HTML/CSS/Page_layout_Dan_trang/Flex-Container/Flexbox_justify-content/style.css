@@ -1,0 +1,24 @@
+/*  Thuộc tính justify-content : justify-start/justify-end/center/space-between/space-around/space-evenly !
+    -> Dùng để định vị các item trong container theo trúc main axis ! 
+     */
+* {
+  font-size: 1.2rem;
+}
+
+.box {
+  background: brown;
+  border: 2px solid yellow;
+}
+.container {
+  display: flex;
+  /* Xác định kiểu dàng trang flexbox. display : flex; ! */
+  background: green;
+  /* Sử dụng thuộc tính justify-content:  */
+  justify-content: flex-start; /* DEFAULT - Mặc định ! */
+  justify-content: flex-end; /* Các item dàng từ main end -> main start ! */
+  justify-content: center; /* Cac item nằm ở giữa trục main axis ! */
+  justify-content: space-between; /* Các item cách đều và sát lề */
+  justify-content: space-around; /* Khoản trắng xung quanh mỗi phần tử là = nhau. 
+                                    Các phần tử ỏ giữa sẽ có khoản trắng lớn gắp đôi với lề !*/
+  justify-content: space-evenly; /* Các phần tử cách đều nhau kể cả lề ! */
+}

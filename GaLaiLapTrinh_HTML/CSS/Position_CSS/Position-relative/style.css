@@ -1,0 +1,32 @@
+.box {
+  width: 100px;
+  height: 100px;
+  color: aliceblue;
+  /* Cho text ở giữa khối ! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sử dụng thuộc tính postion : relative */
+.box1 {
+  background: red;
+}
+
+.box2 {
+  background: green;
+  position: relative;
+  top: 0px;
+  left: 100px;
+  bottom: 0px;
+  right: 40px;
+}
+.box3 {
+  background: blue;
+}
+
+h1 {
+  background: purple;
+  position: relative;
+  top: -190px;
+}

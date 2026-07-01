@@ -1,0 +1,13 @@
+/*  p::selection sử dụng để lựa chọn vùng chọn  được bôi đen tại thẻ p !
+        ::selection -> nếu không nhập gì -> mặc định là *::selection ! 
+   */
+
+p::selection {
+  background-color: brown;
+  color: aliceblue;
+}
+/* ::selection --> mặc định là *::selection -> Bộ chọn tất cả ! */
+::selection {
+  background-color: brown;
+  color: aliceblue;
+}

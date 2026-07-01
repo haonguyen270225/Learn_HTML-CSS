@@ -1,0 +1,42 @@
+.content {
+  color: aliceblue;
+  font-size: 1.5rem;
+  position: relative;
+}
+.box {
+  /* Cho text nằm giữa khối !  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  /* Sử  position : relative */
+  /* position: relative; */
+  position: absolute;
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  background: red;
+  /* Dịch chuyển khối 1 không dùng z-index ! -> Mặc địn khôi 2 sẽ che khôi 1 !*/
+  top: 50px;
+  left: 30px;
+
+  /* Sử dụng z-index ! */
+  /* -> khối 2 không có z-index , khối 1 có z-index = 1 nên nằm trên khối 2 !    */
+  z-index: 1;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: green;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  z-index: 3;
+  top: 300px;
+  left: 50px;
+}

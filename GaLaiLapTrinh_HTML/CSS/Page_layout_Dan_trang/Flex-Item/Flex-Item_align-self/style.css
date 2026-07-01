@@ -1,0 +1,37 @@
+/* <!-- align-self: flex-start/flex-end/center/baseline/stretch
+    -> Sử dụng để tác động align-items đến 1 phần tử theo trục across axis ! 
+    --> */
+* {
+  font-size: 1.5rem;
+}
+
+.box {
+  background-color: brown;
+  border: 2px solid yellow;
+}
+
+.container {
+  height: 40vh;
+  display: flex;
+  background: #ddd;
+  /* align-items: flex-start; */
+}
+
+.box1 {
+  align-self: stretch; /* Giá trị mặc định ! */
+  align-self: flex-start;
+  align-self: flex-end;
+  align-self: center;
+  align-self: baseline;
+}
+
+/* Tác động đến box 1 và box  3 */
+.box1,
+.box3 {
+  align-self: baseline;
+  align-self: flex-start;
+  align-self: flex-end;
+  align-self: center;
+  /* align-self: baseline; */
+  color: aliceblue;
+}

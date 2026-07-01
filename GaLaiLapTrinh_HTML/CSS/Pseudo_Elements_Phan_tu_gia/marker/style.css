@@ -1,0 +1,5 @@
+/* li::marker -> Giúp chọn các điểm đánh dấu của các phần tử li ! */
+li::marker {
+  color: red;
+  font-size: 50px;
+}

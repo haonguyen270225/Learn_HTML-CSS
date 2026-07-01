@@ -1,0 +1,35 @@
+img {
+  width: 300px;
+}
+/* Ở trạng thái mặc định : 
+Các phần tử : 
+1.inline : Nằm trên cùng 1 trang web.
+2.block : Sẽ chiếm hết chiều ngang của phần tử cha nó !
+Các phần tử nay sẽ sắp xếp theo chiều dọc từ trên xuống dưới ! */
+.img_1 {
+  width: 300px;
+  float: left;
+  border-radius: 40%;
+}
+
+.img_2 {
+  width: 300px;
+  float: right;
+  margin-top: 200px;
+  border-radius: 30px;
+}
+
+/* Thuộc tính clear : left/right/both để một phần tử nào đó không bị chèn ép để bao quanh hình ảnh ! */
+.demo {
+  color: brown;
+  font-size: 20px;
+
+  /* Sử dụng thuộc tính clear */
+  clear: left;
+  /* clear: right; */
+  /* clear: both; */
+}
+
+p {
+  text-align: justify;
+}

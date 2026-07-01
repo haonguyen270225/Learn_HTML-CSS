@@ -1,0 +1,15 @@
+.content {
+  width: 400px;
+  height: 900px;
+  background: brown;
+  overflow: auto;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+h2 {
+  background: yellow;
+  color: black;
+  position: sticky;
+  top: 0;
+}

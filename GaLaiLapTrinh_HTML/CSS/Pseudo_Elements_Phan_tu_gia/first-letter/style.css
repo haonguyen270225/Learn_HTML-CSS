@@ -1,0 +1,9 @@
+p {
+  background-color: aquamarine;
+}
+
+/* p::first-letter -> Chọn ký tự đầu tiên của p ! */
+p::first-letter {
+  font-size: 40px;
+  color: brown;
+}

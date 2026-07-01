@@ -1,0 +1,36 @@
+/* Giá trị mặc định của position là static */
+
+.box {
+  width: 100px;
+  height: 100px;
+  /* Tùy chỉnh text về giữa khối ! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background: red;
+}
+.box2 {
+  background: green;
+  position: static; /* Giá trị mặc định position là stctic */
+  /* V position : static -> Các thuộc tính top , left , right , bottom không có tác dụng khi sử dụng ! */
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+}
+.box3 {
+  background: blue;
+}
+
+h1 {
+  background: purple;
+  position: static; /* Giá trị mặc định position là stctic */
+  /* V position : static -> Các thuộc tính top , left , right , bottom không có tác dụng khi sử dụng ! */
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+}

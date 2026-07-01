@@ -1,0 +1,24 @@
+* {
+  font-size: 1.5rem;
+}
+
+.box {
+  border: 2px solid yellow;
+  background: brown;
+  /* Cho chiều dài item = 30%  */
+  width: 30%;
+  /* Mặc định nếu không dùng flex-wrap trên container ->
+  chiều dài các phần tứ sẽ không được 30%. Vì nhiều phần tử trên 1 hàng !. */
+  flex-shrink: 0;
+}
+
+.container {
+  background: #ddd;
+  display: flex;
+}
+
+.box1,
+.box3 {
+  flex-shrink: 1; /* Default ! Mặc định ! */
+  flex-shrink: 0;
+}

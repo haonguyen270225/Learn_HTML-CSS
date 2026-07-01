@@ -1,0 +1,25 @@
+* {
+  font-size: 1.5rem;
+}
+
+.box {
+  background: brown;
+  border: 2px dotted yellow;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  background: green;
+  justify-content: space-evenly; /* Tùy chỉnh item theo trục main cross ! */
+  align-items: stretch; /* Giá trị mặc định. Các items sẽ giãn theo container !  */
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: baseline;
+  /* Căn theo chân đường cơ sở ! */
+}
+
+.box1 {
+  height: 200px;
+}

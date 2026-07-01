@@ -1,0 +1,26 @@
+* {
+  font-size: 1.5rem;
+}
+.box {
+  background: brown;
+  border: 2px solid yellow;
+  width: 30%;
+}
+
+.container {
+  background: blue;
+  display: flex;
+  min-height: 200px;
+  /* Sử dụng thuộc tính flex-wrap : */
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* Sử dụng thuộc tính:  align-content  */
+  align-content: stretch; /* default - Mặc định sẽ kéo chiều dài các item theo trục cross axis ! */
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-around;
+  align-content: space-between;
+  /* overflow: auto; */
+}

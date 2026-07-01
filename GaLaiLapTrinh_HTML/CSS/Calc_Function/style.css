@@ -1,0 +1,13 @@
+.nav {
+  background-color: brown;
+  height: 150px;
+  /* Sử dụng hàm calc */
+  width: calc(100% - 100px);
+  /* Canh giữa phần tử ! */
+  margin: 0 auto;
+}
+
+.content_main {
+  background-color: #cdd;
+  height: calc(100vh - 200px);
+}
