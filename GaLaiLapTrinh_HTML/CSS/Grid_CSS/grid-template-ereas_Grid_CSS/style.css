@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "header header header"
+    "menu content sidebar"
+    "footer footer footer";
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.box1 {
+  grid-area: header;
+  background-color: green;
+}
+
+.box2 {
+  grid-area: menu;
+  background-color: blue;
+}
+
+.box3 {
+  grid-area: content;
+  background-color: rgb(250, 6, 112);
+}
+
+.box4 {
+  grid-area: sidebar;
+  background-color: rgb(183, 11, 137);
+}
+.box5 {
+  grid-area: footer;
+  background-color: rgb(32, 8, 25);
+}

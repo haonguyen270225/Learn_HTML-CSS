@@ -1,0 +1,50 @@
+.box1 {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  /* margin: 100px auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-size: 1.2rem;
+  /* transition: 2s; */
+  margin-left: 100px;
+  /* Sử dụng animation ! */
+  /* animation: spin_element 5s infinite; */
+  animation: spin_element 7s 3s infinite reverse;
+  border-radius: 20px;
+  border: 5px solid green;
+}
+
+@keyframes spin_element {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: rotate(360deg);
+    background-color: aqua;
+    border: 5px solid rgb(3, 22, 130);
+    color: rgb(255, 140, 0);
+    transform: translate(calc(100vw - 200px), 0);
+  }
+  50% {
+    transform: rotate(0deg);
+     background-color: rgb(113, 6, 111);
+     border: 5px solid rgb(105, 103, 6);
+     color: rgb(12, 118, 122);
+    transform: translate(calc(100vw - 200px), calc(100vh - 100px));
+  }
+  75% {
+    transform: rotate(0deg);
+    background-color: rgb(41, 5, 91);
+    border: 5px solid rgb(141, 71, 7);
+    color: yellow;
+    transform: translate(0, calc(100vh - 100px));
+  }
+  100% {
+    transform: rotate(0deg);
+    transform: translate(0, 0);
+  }
+}

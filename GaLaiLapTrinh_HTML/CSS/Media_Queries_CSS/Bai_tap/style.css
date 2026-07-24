@@ -1,0 +1,39 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+/* <!-- Bài tập : thay đổi giao diện nền cho từng thiết bị ! -->
+    <!-- 
+        [yellow] Thiết bị di động : 319px -> 480px;
+        [chocolate] iPads và máy tính bảng : 481px -> 1200px;
+        [green] Laptop : 1201px -> 1600px
+        [purple] Máy tính để bàn : 1601px trở lên !
+    --> */
+/*  [yellow] Thiết bị di động : 319px -> 480px; */
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+}
+/* [chocolate] iPads và máy tính bảng : 481px -> 1200px; */
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: chocolate;
+  }
+}
+
+/* [green] Laptop : 1201px -> 1600px */
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* [purple] Máy tính để bàn : 1601px trở lên ! */
+@media (min-width: 1601px) {
+  body {
+    background-color: purple;
+  }
+}

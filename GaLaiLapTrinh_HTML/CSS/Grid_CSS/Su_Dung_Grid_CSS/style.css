@@ -1,0 +1,61 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1,
+.box4,
+.box5 {
+  background-color: brown;
+}
+.box2,
+.box3 {
+  background-color: blueviolet;
+}
+/* Sử dụng Grid CSS ! */
+.container {
+  display: grid;
+  /* display: inline-grid; */
+  /* 1 -  Cách chia hàng và cột : grid-template-columns , grid-template-wors;*/
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  /* Mặc định là giá trị auto; */
+
+  /* grid-template-columns: 200px 100px;
+  grid-template-rows: 50px 200px; */
+
+  /* 2 - Sử dụng repeat; */
+
+  /* gap: 30px;
+  grid-template-columns: 100px repeat(3, 30px);
+  grid-template-rows: repeat(3, 100px); */
+
+  /* 3 - Sử dụng trong số - fr (Chiếm bao nhiêu phần !)  */
+  /* Chia 3 cột : 1/5 3/5 và 2/5 */
+  /* Chia 2 hàng :  5/6 và 1/6*/
+
+  /* grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: 5fr 1fr;
+  gap: 10px; */
+
+  /* 4 - Sử dụng auto : */
+
+  /* Chia 2 cột : 140px hết phần còn lại !*/
+  /* Chia theo hàng : 130px và 100px; . Chú ý không dùng auto cho row ! */
+
+  /* grid-template-columns: 140px auto;
+  grid-template-rows: 100px 150px; */
+
+  /* 5 - SỬ dụng min , max ! */
+
+  /* grid-template-columns: minmax(150px, 200px) minmax(100px, 200px);
+  grid-template-rows: repeat(2, minmax(100px, 150px)); */
+
+  /* 6 - Sử dụng thuộc tính : grid-auto-row :  */
+  /* -> Chỉ định chiều cao dòng mặc định ! */
+
+   grid-template-columns: 200px 100px;
+  grid-template-rows: 50px 200px;
+  grid-auto-rows: 50px;
+}

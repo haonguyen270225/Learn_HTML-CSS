@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học Bootstrap : Auto Margin !</title>
+    <!-- CSS Bootstrap ! -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Sử dụng để tự động căn lề phần tử ! -->
+    <!-- Ví dụ 1 : Mặc định  -->
+    <div class="d-flex m-3 bg-warning-subtle">
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+    </div>
+
+    <!-- Ví dụ 2 : Đẩy 2 phần tử sang phải - Sử dụng .me-auto -->
+    <div class="d-flex m-3 bg-warning-subtle">
+      <div class="p-2 me-auto border-3 border border-danger-subtle">Item 1</div>
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+    </div>
+
+    <!-- Ví dụ 3 : Đẩy hai phần tử sang trái - Sử dụng .ms-auto  -->
+    <div class="d-flex m-3 bg-warning-subtle">
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+      <div class="p-2 border-3 border border-danger-subtle">Item 1</div>
+      <div class="p-2 ms-auto border-3 border border-danger-subtle">Item 1</div>
+    </div>
+
+    <!-- Sử dụng .mb-auto và .mt-auto với flex-column   -->
+    <!-- Ví dụ 1 :  -->
+    <div class="d-flex m-3 bg-warning-subtle flex-column" style="height: 200px">
+      <div class="p-2 border border-danger-subtle border-3 w-25 mb-auto">
+        Item 1
+      </div>
+      <div class="p-2 border border-danger-subtle border-3 w-25">Item 2</div>
+      <div class="p-2 border border-danger-subtle border-3 w-25">Item 3</div>
+    </div>
+    <!-- Ví dụ 2 :  -->
+    <div
+      class="d-flex m-3 bg-warning-subtle flex-column align-items-end"
+      style="height: 200px"
+    >
+      <div class="p-2 border border-danger-subtle border-3 w-25">Item 1</div>
+      <div class="p-2 border border-danger-subtle border-3 w-25">Item 2</div>
+      <div class="p-2 border border-danger-subtle border-3 w-25 mt-auto">
+        Item 3
+      </div>
+    </div>
+    <!-- JavaScript Bootstrap !  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

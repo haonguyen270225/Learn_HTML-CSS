@@ -1,0 +1,25 @@
+/*  align-content : start/end/space-between/space-around/sapce-evenly 
+    -> Sử dụng để căn các item trong khối container theo trục column !; 
+     */
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 50px 100px 200px;
+  height: 100vh;
+  background-color: yellow;
+  align-content: start; /* Default - Mặc định ! */
+  align-content: end;
+  align-content: center;
+  align-content: space-between;
+  /* Cách đều sát lề ! */
+  align-content: space-evenly;
+  /* Cách đều kể cả lề ! */
+  align-content: space-around;
+  /* Cách đều lề : 1x và phần tử - phần tử :2x */
+}
+
+.box {
+  background-color: #ccc;
+  border: 1px solid red;
+}

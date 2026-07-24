@@ -1,0 +1,42 @@
+.container {
+  /* display: flex; */
+  margin: 200px;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  /* margin: 100px auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  /* Sử dụng translate (Dịch chuyển) ! */
+  /* transform: translate(30px); */
+}
+
+.box1 {
+  padding-top: 10px;
+
+  /* Sử dụng translate (Dịch chuyển ) ! */
+  transform: translate(100px);
+  transform: translate(70px, 60px);
+  transform: translateX(70px);
+  transform: translateY(70px);
+
+  translate: 20px 40px;
+  translate: 30px;
+}
+
+.box2 {
+  position: absolute;
+  background-color: antiquewhite;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  /* margin-left: 100px; */
+  border: 6px solid rgb(5, 5, 2);
+  z-index: -1;
+}

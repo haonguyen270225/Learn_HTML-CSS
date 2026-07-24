@@ -1,0 +1,46 @@
+.box {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+}
+
+/* Sử dụng 
+@media đặt break point - điểm dừng ! */
+/* @media (max-width: 600px) {
+  .box {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+  }
+} */
+
+/* max-width : Cho phép tối đa màng hình rộng bao nhiêu thì áp dụng. */
+/* Ví dụ : Nếu màng hình <= 600px thì áp dụng CSS riêng ! */
+@media (max-width: 600px) {
+  .box {
+    background-color: rgb(31, 3, 133);
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* min-width : Cho phép màng hình tối thiểu rộng bao nhiêu thì áp dụng ! */
+/* Ví dụ : Nếu màng hình >= 1000px thì áp dụng CSS riêng ! */
+@media (min-width: 1000px) {
+  .box {
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* Điều kiện kết hợp : (max-width) and (min-width) */
+/* Nếu kích thước màng hình nằm trong 600 -> 1000px thì áo dụng css riêng ! */
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .box {
+    background-color: rgb(78, 78, 78);
+    width: 300px;
+    height: 300px;
+  }
+}

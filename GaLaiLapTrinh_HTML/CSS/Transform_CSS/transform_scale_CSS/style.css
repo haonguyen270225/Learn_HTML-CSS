@@ -1,0 +1,16 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+
+  /* Sử dung scale (Xoay) !*/
+  transform: scale(1.5); /* 1 đối số -> chiều ngang và dọc ! */
+  transform: scale(1.5, 1); /* 2 đối số value_1 -> ngang , value_2 -> dọc  */
+  scale: 1.5;
+  scale: 1.5 1;
+}

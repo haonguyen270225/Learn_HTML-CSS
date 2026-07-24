@@ -1,0 +1,13 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: brown;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  /* Sử dụng rotate (Xoay) ! */
+  transform: rotate(45deg);
+  transform: rotate(-45deg);
+}

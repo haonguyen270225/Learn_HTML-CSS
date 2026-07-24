@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 50px 100px 200px;
+
+  background-color: brown;
+  height: 100vh;
+  /* Sử dụng thuộc tính justify-content  */
+  justify-content: start;
+  justify-content: center;
+  justify-content: end;
+  justify-content: space-evenly;
+  /* Cách đều kể cả lề ! */
+  justify-content: space-around;
+  /* Cách lề x , item - item : 2x */
+  justify-content: space-between;
+  /* Cách đếu sát lề ! */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1,
+.box4,
+.box5 {
+  background-color: aqua;
+}
+
+.box2,
+.box3 {
+  background-color: green;
+}

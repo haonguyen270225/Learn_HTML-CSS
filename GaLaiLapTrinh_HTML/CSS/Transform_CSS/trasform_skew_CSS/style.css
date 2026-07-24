@@ -1,0 +1,19 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+
+  /* Sử dụng skew (Nghiêng ) ! */
+  transform: skew(20deg); /* 1 đối số -> nghiêng theo trục X */
+  transform: skew(
+    10deg,
+    20deg
+  ); /* 2 đối số : value_1 -> trục X , value_2 -> trục Y */
+  transform: skewX(30deg);
+  transform: skewY(30deg);
+}

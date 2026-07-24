@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  background-color: yellow;
+  gap: 10px;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 40px 100px 200px;
+
+  /* Sử dụng : align-items */
+  align-items: stretch;
+  align-items: start;
+  align-items: center;
+  align-items: end;
+}
+
+.box {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}

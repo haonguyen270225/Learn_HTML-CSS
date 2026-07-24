@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học Bootstrap : Order !</title>
+
+    <!-- CSS Bootstrap ! -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Order dùng để thay đổi thứ tự phần tử xuất hiện của các flex item1 !  
+    Sử dụng các class Order sau : .order-first , .order-last , .order-1 , order-2 , .order-3 , .order-4 
+    .order-5.
+    - Chú ý : 
+    order-first => Tương đương với order : -1
+    order-last => Tương đương với order : 6
+    - Giá trị order càng cao thì độ ưu tiên hiển thị càng thấp ! 
+    -->
+    <div class="d-flex m-3 border border-3 border-danger bg-danger-subtle">
+      <div class="p-2 border border-primary order-3">First Flex Item</div>
+      <div class="p-2 border border-primary order-2">Second Flex Item</div>
+      <div class="p-2 border border-primary order-1">Third Flex Item</div>
+    </div>
+
+    <div class="d-flex m-3 border border-3 border-danger bg-danger-subtle">
+      <div class="p-2 border border-primary order-last">First Flex Item</div>
+      <div class="p-2 border border-primary order-first">Second Flex Item</div>
+      <div class="p-2 border border-primary order-1">Third Flex Item</div>
+    </div>
+
+    <!-- JavaScript Bootstrap ! -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học form : thuộc tính action !</title>
+  </head>
+  <body>
+    <!-- action dùng để lưu trữ đường dẫn URL khi nhấn submit , và sử lý phía backend ! -->
+    <form action="/test">
+      <label>
+        Username :
+        <input type="text" name="userName" id="userNam"
+      /></label>
+      <input type="submit" value="Send me !" />
+    </form>
+    <h2>1.Google Search !</h2>
+    <form action="https://www.google.com/search">
+      <label for="goole_search"></label>
+      <input type="text" id="goole_search" name="q" />
+      <input type="submit" value="search google !" />
+    </form>
+    <h2>2.Search Youtube !</h2>
+    <form action="https://www.youtube.com/results">
+      <input type="text" id="search_youtube" name="search_query" />
+      <input type="submit" value="Search Youtube !" />
+    </form>
+  </body>
+</html>

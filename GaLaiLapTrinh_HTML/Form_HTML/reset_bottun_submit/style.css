@@ -1,0 +1,8 @@
+#submit-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 15px;
+}
